@@ -140,6 +140,10 @@ main .main__about{
 
 
 
+
+
+
+
     main .main__welcome{
         padding: 50px 0 50px 0;
     }
@@ -169,4 +173,58 @@ main .main__about{
         margin-top: 10px;
     }
 
+
+
+    .team_cards{
+        flex-direction: column;
+
+    }
+
+}
+
+
+.main__team{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: white;
+}
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.wrapper line{
+    width: 100px;
+    height: 3px;
+    color: orange;
+    position: relative;
+    left: 45.5%;
+    margin-bottom: 85px;
+}
+.photo{
+    background: #e0e0e0;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto ;
+}
+
+
+.card{
+    margin: 0 40px;
+}
+
+.team_cards{
+    display: flex;
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.position{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.about_position{
+    font-size: 14px;
 }
