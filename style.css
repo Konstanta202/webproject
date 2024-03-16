@@ -60,6 +60,9 @@ main .main__welcome h1{
     color: #999999;
     font-size: 44px;
 }
+main .main__welcome h1:after{
+    display: none;
+}
 .mycompany{
     color: #fcac45;
 }
@@ -79,6 +82,9 @@ main .main__about{
     border-bottom: 3px solid #fcac45;
     padding-bottom: 20px;
 }
+.about_right h1:after{
+    display: none;
+}
 .about_right p{
     margin: 30px 0 50px 0;
     color: #6c6c6c;
@@ -91,7 +97,6 @@ main .main__about{
 .mv-100{
     min-width: 100%;
 }
-
 .main__team{
     background: #000;
     text-align: center;
@@ -102,14 +107,14 @@ main .main__about{
     font-size: 44px;
     padding-bottom: 30px;
 }
-.line{
-    width: 100px;
-    height: 3px;
-    position: relative;
-    left: 45.5%;
-    margin-bottom: 85px;
-    border-bottom: 3px solid #fcac45;
-}
+/*.line{*/
+/*    width: 100px;*/
+/*    height: 3px;*/
+/*    position: relative;*/
+/*    left: 45.5%;*/
+/*    margin-bottom: 85px;*/
+/*    border-bottom: 3px solid #fcac45;*/
+/*}*/
 
 .photo{
     background: #e0e0e0;
@@ -118,7 +123,6 @@ main .main__about{
     border-radius: 50%;
     margin: 20px auto ;
 }
-
 
 .card{
     margin: 0 40px;
@@ -138,8 +142,6 @@ main .main__about{
 .about_position{
     font-size: 14px;
 }
-
-
 
 .services__cards{
     text-align: center;
@@ -210,8 +212,6 @@ main .main__about{
     opacity: 0.9;
 }
 
-
-
 .contact__wrapper{
     width: 753px;
     margin: 0 auto;
@@ -265,7 +265,21 @@ input[type=submit]{
     padding: 100px 0 100px 0;
 }
 
+h1:after{
+    content:"";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
 
+footer{
+    width: 100%;
+    height: auto;
+    background: #222;
+    padding: 30px 0 30px ;
+}
 
 
 @media screen and (max-width: 1300px) {
@@ -360,5 +374,3 @@ input[type=submit]{
         display: none;
     }
 }
-
-
